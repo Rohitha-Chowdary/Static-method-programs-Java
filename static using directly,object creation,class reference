@@ -1,0 +1,15 @@
+
+package oops;
+
+public class Demo2 {
+    public static void print() {
+        System.out.println(""hello");
+        
+    }
+    public static void main(String[] args) {
+        print();
+        Demo2.print();
+        Demo2 d =new demo2();
+        d.print();
+    }
+}
