@@ -1,0 +1,13 @@
+
+
+public class Demo {
+    static {
+        System.out.println("HI");
+    }
+    public static void main(String[] args) {
+        System.out.println("HELLO");
+    }
+    static {
+        System.out.println("BYE");
+    }
+}
